@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /* Seu novo gradiente de fundo */
+    background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(33,27,87,1) 8%, rgba(28,21,89,1) 16%, rgba(30,25,120,1) 28%, rgba(26,26,105,1) 35%, rgba(16,34,125,1) 45%, rgba(22,46,117,1) 54%, rgba(31,61,84,1) 66%, rgba(7,69,89,1) 78%, rgba(12,104,125,1) 89%, rgba(24,157,184,1) 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    
+
+    border-radius: 40px;
+
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+
+    border: 2px solid transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), 
+                      linear-gradient(90deg, #45e9ff, #1c1559, #189db8);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+h1, h2, h4, h5 {
+    text-align: center;
+    color: #ffffff; 
+}
+
+h3 {
+    color: rgb(42, 165, 95);
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+    background-color: #a52a2a;
+}
